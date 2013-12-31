@@ -7,7 +7,7 @@ body {
   body a:hover {
     color: red; }
   body #outer {
-    width: 765px;
+    width: 780px;
     padding: 0px 0px 10px 0px;
     margin: auto; }
     body #outer #attr {
@@ -97,7 +97,7 @@ body {
           padding-bottom: 10px; }
       #leakeddoc #maindoc #content #blobs {
         width: 83px;
-        height: 500px;
+        height: 400px;
         padding: 167px 0px 0px 0px;
         float: right;
         border-left: 1px solid black; }

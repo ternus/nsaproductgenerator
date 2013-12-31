@@ -1,3 +1,11 @@
+/* 
+   Warning: This code is TERRIBLE. I knocked it together in less than three hours, including
+   time to come up with all this verbiage. Don't judge it too harshly :)
+
+   - ternus
+*/
+
+
 $(function() {
 
     var choice = function(arr) {
@@ -478,7 +486,9 @@ $(function() {
 	return name;
     }
 
-    var generate_graph = function() {
+/* Shame, the graph doesn't work */
+
+/*    var generate_graph = function() {
 	var g = new Graph();
 	elements = {};
 	for (i = 0; i < (Math.floor(Math.random() * 6) + 2); i++) {
@@ -492,7 +502,7 @@ $(function() {
 	var renderer = new Graph.Renderer.Raphael('diagram', g, 300, 200);
 	renderer.draw();
     }
-
+*/
     codename = generate_codename().toUpperCase();
 
     Handlebars.registerHelper('word', function(thing) {

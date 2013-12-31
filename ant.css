@@ -1,0 +1,116 @@
+body {
+  background: #efefef;
+  font-family: Helvetica, Arial, sans-serif;
+  text-shadow: 1px 1px 0px #ccc; }
+  body a {
+    text-decoration: none; }
+  body a:hover {
+    color: red; }
+  body #outer {
+    width: 765px;
+    padding: 0px 0px 10px 0px;
+    margin: auto; }
+    body #outer #attr {
+      font-size: 10pt;
+      font-style: italic; }
+
+#leakeddoc {
+  text-shadow: none;
+  box-shadow: 0px 0px 5px darkgray;
+  margin: auto;
+  background: white;
+  width: 720px;
+  padding: 15px 30px;
+  background: white;
+  font-family: sans-serif; }
+  #leakeddoc .tsheader {
+    clear: both;
+    text-align: center; }
+  #leakeddoc .ts:before {
+    content: "(TS//SI//REL) "; }
+  #leakeddoc #top {
+    display: block; }
+    #leakeddoc #top #topleft {
+      width: 250px;
+      float: left; }
+      #leakeddoc #top #topleft #logo img {
+        width: 235px; }
+    #leakeddoc #top #topright {
+      text-align: right;
+      padding: 5px;
+      float: right; }
+      #leakeddoc #top #topright #name {
+        width: 450px;
+        padding: 5px 0px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: darkblue;
+        font-size: 34pt; }
+      #leakeddoc #top #topright #product {
+        color: black;
+        font-size: 24pt; }
+  #leakeddoc #maindoc {
+    display: block;
+    clear: both;
+    padding: 0px 20px;
+    font-size: 10.8pt; }
+    #leakeddoc #maindoc #heading {
+      display: table;
+      border-bottom: 1px solid black; }
+      #leakeddoc #maindoc #heading #crossbar1 {
+        position: relative;
+        width: 26px;
+        border-bottom: 1px solid black;
+        left: 583px;
+        top: 48px; }
+      #leakeddoc #maindoc #heading #crossbar2 {
+        position: relative;
+        height: 26px;
+        border-left: 1px solid black;
+        left: 660px;
+        top: 87px; }
+      #leakeddoc #maindoc #heading #topsummary {
+        padding: 20px 10px 5px 0px;
+        float: left;
+        width: 586px;
+        border-right: 1px solid black;
+        height: 48px; }
+      #leakeddoc #maindoc #heading #topdate {
+        width: 60px;
+        float: right;
+        padding: 30px 10px 5px 10px;
+        text-align: center;
+        font-weight: bold; }
+    #leakeddoc #maindoc #content {
+      clear: both; }
+      #leakeddoc #maindoc #content #content-left {
+        float: left;
+        width: 586px;
+        padding: 10px 10px 10px 0px;
+        text-align: left; }
+        #leakeddoc #maindoc #content #content-left #diagram {
+          float: right;
+          padding: 20px;
+          width: 300px;
+          height: 200px; }
+        #leakeddoc #maindoc #content #content-left .ts {
+          padding-bottom: 10px; }
+      #leakeddoc #maindoc #content #blobs {
+        width: 83px;
+        height: 500px;
+        padding: 167px 0px 0px 0px;
+        float: right;
+        border-left: 1px solid black; }
+        #leakeddoc #maindoc #content #blobs img {
+          width: 80px;
+          height: 350px; }
+    #leakeddoc #maindoc #footer {
+      display: block;
+      clear: both; }
+      #leakeddoc #maindoc #footer .censored {
+        color: #f08; }
+      #leakeddoc #maindoc #footer #footer-right {
+        float: right;
+        font-size: 9px;
+        font-weight: bold;
+        text-align: right; }

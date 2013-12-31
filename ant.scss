@@ -1,0 +1,163 @@
+body {
+    background: #efefef;
+    font-family: Helvetica, Arial, sans-serif;
+    text-shadow: 1px 1px 0px #ccc;
+    a {
+	text-decoration: none;
+    }
+    a:hover {
+	color: red;
+    }
+    #outer {
+	width: 765px;
+	padding: 0px 0px 10px 0px; 
+	margin: auto;
+	#attr {
+	    font-size: 10pt;
+	    font-style: italic;
+	}
+    }
+}
+
+#leakeddoc {
+    text-shadow: none;
+    box-shadow: 0px 0px 5px darkgray;
+    margin:auto;
+    background: white;
+    width: 720px;
+    padding: 15px 30px;
+    background: white;
+    font-family: sans-serif;
+    .tsheader {
+	clear: both;
+	text-align: center;
+    }
+
+    .ts:before {
+	content: "(TS//SI//REL) ";
+	//font-weight: bold;
+	}
+    #top {
+	display: block;
+	#topleft {
+	    width: 250px;
+	    #logo {
+
+		img {
+		    width: 235px;
+		}
+	    }
+	    float: left;
+	}
+	#topright {
+	    text-align: right;
+	    padding: 5px;
+	    float: right;
+	    #name {
+		width: 450px;
+		padding: 5px 0px;
+		text-transform: uppercase;
+		font-weight: bold;
+		color: darkblue;
+		font-size: 34pt;
+	    }
+	    #product {
+		color: black;
+		font-size: 24pt;
+		}
+	}
+
+    }
+    #maindoc {
+	display: block;
+	clear: both;
+	padding: 0px 20px;
+	font-size: 10.8pt;
+	#heading {
+	    display: table;
+	    border-bottom: 1px solid black;
+	    #crossbar1 {
+		position: relative;
+		width: 26px;
+		border-bottom: 1px solid black;
+		left: 583px;
+		top: 48px;
+	    }
+	    #crossbar2 {
+		position: relative;
+		height: 26px;
+		border-left: 1px solid black;
+		left: 660px;
+		top: 87px;
+	    }
+
+	    #topsummary {
+		padding: 20px 10px 5px 0px;
+		float: left;
+		width: 586px;
+		border-right: 1px solid black;
+		height: 48px;
+	    }
+	    #topdate {
+		width: 60px;
+		float: right;
+		padding: 30px 10px 5px 10px;
+		text-align: center;
+		font-weight: bold;
+
+		
+	    }
+	}
+	#content {
+	    clear: both;
+
+	    #content-left {
+		float: left;
+
+		width: 586px;
+		padding: 10px 10px 10px 0px;
+		
+
+
+	    text-align: left;
+		#diagram {
+		    float: right;
+		    padding: 20px;
+		    width: 300px;
+		    height:200px;
+		    }
+
+		.ts {
+		    padding-bottom: 10px;
+		}
+
+		
+	    }
+	    #blobs {
+		width: 83px;
+		height: 500px;
+		padding: 167px 0px 0px 0px;
+		img {
+		    width: 80px;
+		    height: 350px;
+		}
+		float: right;
+		border-left: 1px solid black;
+	    }
+	}
+	#footer {
+	    display:block;
+	    clear:both;
+	    .censored {
+		color: #f08;
+		}
+	    #footer-right {
+		float: right;
+		font-size: 9px;
+		font-weight: bold;
+		text-align: right;
+	    }
+	    }
+    }	
+
+}
